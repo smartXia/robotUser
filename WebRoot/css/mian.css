@@ -1,0 +1,230 @@
+@CHARSET "UTF-8";
+/* 强行居中 */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0px;
+	font-size: 14px;
+}
+/* a:标签的应用 */
+a:link {
+	text-decoration: none;
+}
+/* 点击效果 */
+a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+#myCanvas {
+	border: 1px;
+	background-color: #f7fafc;
+}
+
+#bottom {
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-family: "微软雅黑";
+	color: #C0C0C0;
+	font-size: 1px;
+}
+
+#zhihu {
+	position: absolute;
+	top: 5%;
+	width: 300px;
+	height: 150px;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#word {
+	position: absolute;
+	/* font-family: "Times New Roman", Georgia, Serif;  */
+	color: #666666;
+	top: 12%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+	/* 	font-family:"宋体", "Times New Roman"; */
+	/* font-family: "Comic Sans MS", cursive; */
+}
+/* 登录的div */
+#lr {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-family: "微软雅黑";
+	color: #666666;
+	font-size: 20px;
+}
+
+.show1 {
+	padding-bottom: 5px;
+	font-family: "微软雅黑";
+	color: #666666;
+	font-size: 20px;
+	border-bottom: 3px solid #0f88eb;
+	color: #0f88eb
+}
+
+#show1 {
+	font-size: 15px;
+}
+
+#show2 {
+	font-size: 15px;
+}
+
+#show1:hover {
+	opacity: 0.7;
+}
+
+#show2:hover {
+	opacity: 0.7;
+}
+
+#image:hover {
+	opacity: 0.7;
+}
+/* 附加的css */
+.important {
+	padding-bottom: 5px;
+	font-family: "微软雅黑";
+	color: #666666;
+	font-size: 20px;
+	border-bottom: 3px solid #0f88eb;
+	color: #0f88eb
+}
+
+#show3 {
+	display: none;
+}
+
+#register {
+	position: absolute;
+	top: 58%;
+	left: 52%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#login {
+	position: absolute;
+	top: 58%;
+	left: 52%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	display: none;
+}
+
+.button {
+	background-color: #0f88eb; /* Green */
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 13px 118px;
+	text-align: center;
+	text-decoration: none;
+	text-color: white;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+
+.button2 {
+	padding: 12px 100px;
+	background-color: transparent;
+	color: #3366ff;
+	border: 2px solid #c7def3;
+}
+
+.button3 {
+	padding: 14px 133px;
+}
+
+.button1:hover {
+	opacity: 0.7;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.button3:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+#xiazai {
+	padding: 15px 105px 15px 105px;
+	border: 1px solid #55abed;
+}
+
+.ui-dialog {
+	width: 300px;
+	height: auto;
+	display: none;
+	position: absolute;
+	z-index: 9000;
+	top: 0px;
+	left: 19px;
+	border: 1px solid #D5D5D5;
+	background: #19e64dff;
+	//
+	透明背景
+}
+
+input {<!---->
+	outline: medium;
+}
+
+.icon {
+	width: 300px;
+	height: 50px;
+	border-radius: 0px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 1px 1px 3px #cccccc;
+	padding-left: 10px;
+	margin-right: 10px;
+	text-indent: 32px;
+	background: white;
+	background: url("images/用户.png") no-repeat 10px;
+}
+输入框的css /* .iocn1 {
+	background: url("images/用户.png") no-repeat 10px;
+}
+
+.iocn2 {
+	background: url("images/手机号.png") no-repeat 10px;
+}
+
+.iocn3 {
+	background: url("images/密码.png") no-repeat 10px;
+} */

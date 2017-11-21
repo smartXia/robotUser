@@ -1,0 +1,27 @@
+.container {
+	/* border: 1px solid red; */
+}
+
+.reply .btn {
+	margin-top: -15px;
+	margin-right: 10px;
+	float: right;
+}
+
+.topiclist {
+	border: 1px solid lightgrey;
+}
+#reply-context{
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+/* #reply-context{
+	display: none;
+} */
+.time{
+	float: right;
+	margin-top: 10px;
+}
+.reply-context{
+
+}

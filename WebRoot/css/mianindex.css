@@ -1,0 +1,309 @@
+body {
+	margin: auto;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.container-2 {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+@media (min-width:768px) {
+	.container-2 {
+		width: 750px
+	}
+}
+
+@media (min-width:992px) {
+	.container-2 {
+		width: 970px
+	}
+}
+
+@media (min-width:1200px) {
+	.container-2 {
+		width: 1170px
+	}
+}
+
+.navbar-brand {
+	background-image: url(../images/logo.png);
+	width: 165px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.side-bar .list-group-item {
+	border: 0px;
+	margin-bottom: 5px;
+}
+
+.side-bar .list-group-item .active {
+	background-color: #0000FF;
+}
+
+img,
+.side-bar .list-group-item,
+.side-bar-card {
+	border-radius: 5px;
+}
+
+
+/*
+ * 调节新闻板块的css
+ */
+
+.col-xs-4 img {
+	display: block;
+	border-radius: 5px;
+	/*	border-radius: 3px;*/
+	max-width: 100%;
+}
+
+
+/*
+ * 调节热点新闻css
+ */
+
+.col-md-4,
+.col-xs-5 img {
+	display: block;
+	border-radius: 5px;
+	max-width: 100%;
+}
+
+.news-list-item {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eee;
+}
+
+.news-list-item:first-child {
+	padding-top: 0px;
+}
+
+.news-list-item .title {
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	color: #444;
+	margin-bottom: 30px;
+	line-height: 1;
+}
+
+.news-list-item .title:hover {
+	color: #337AB7;
+}
+
+.news-list-item .info {
+	color: #888;
+}
+
+.avatar {
+	display: inline-block;
+}
+
+.avatar img {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.side-bar-card {
+	background-color: #C7DDEF;
+	margin-top: 15px;
+	padding: 20px 0;
+}
+
+.side-bar-card.flag {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.side-bar-card .text-lg {
+	font-size: 150%;
+}
+
+.side-bar-card .card-title,
+.side-bar-card .card-body .list .item {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 10px;
+}
+
+.side-bar-card .card-body .list .item:hover {
+	background: rgba(0, 0, 0, .05);
+}
+
+.side-bar-card .card-title {
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.card-body .list .item .title {
+	font-size: 17px;
+	padding-bottom: 5px;
+}
+
+.card-body .list .item .desc {
+	padding-bottom: 5px;
+}
+
+.news-title {
+	line-height: 1.5;
+}
+
+.news-status {
+	color: #999;
+}
+
+.news-status .label {
+	opacity: 0.8;
+}
+
+.news-content {
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.news-content img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.on-padding-h {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.footer {
+	margin-top: 20px;
+	padding: 50px 0;
+	text-align: center;
+	color: #999;
+}
+.footer img{
+	opacity: 0.001;
+}
+
+
+/*.item {
+	margin-bottom:10px;
+}
+*/
+
+
+/*
+ * 关于轮播的几张图
+ */
+
+UL {
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px
+}
+
+.center-text {
+	position: absolute;
+	left: 0;
+	opacity: 0.8;
+	top: 95%;
+	padding-top: 20px;
+	width: 100%;
+	background-color: #FCFCFC;
+	text-align: center;
+	font-size: 18px;
+}
+
+.panel panel-info local {
+	margin-top: 100px;
+}
+
+.container {
+	margin-top: 50px;
+	WIDTH: 700px;
+	HEIGHT: 400px
+}
+
+.container A IMG {
+	WIDTH: 700px;
+	HEIGHT: 400px
+}
+
+.container IMG {
+	BORDER-BOTTOM-STYLE: none;
+	BORDER-RIGHT-STYLE: none;
+	BORDER-TOP-STYLE: none;
+	BORDER-LEFT-STYLE: none
+}
+
+.td_f A IMG {
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px
+}
+
+.num {
+	POSITION: absolute;
+	WIDTH: 90px;
+	FLOAT: right;
+	TOP: 380px;
+	LEFT: 550px
+}
+
+.num LI {
+	TEXT-ALIGN: center;
+	LINE-HEIGHT: 15px;
+	LIST-STYLE-TYPE: none;
+	MARGIN: 1px;
+	WIDTH: 15px;
+	FONT-FAMILY: Arial;
+	BACKGROUND: url(../images/fff-1.png) no-repeat -15px 0px;
+	FLOAT: left;
+	HEIGHT: 15px;
+	COLOR: #86a2b8;
+	FONT-SIZE: 12px;
+	CURSOR: pointer
+}
+
+.num LI.on {
+	LINE-HEIGHT: 15px;
+	WIDTH: 15px;
+	BACKGROUND: url(../images/fff-1.png) no-repeat;
+	HEIGHT: 15px;
+	COLOR: #ffffff
+}
+
+.more {
+	FLOAT: right
+}
+
+.more1 A {
+	TEXT-ALIGN: left;
+	LINE-HEIGHT: 25px;
+	MARGIN: 0px 0px 0px 10px;
+	COLOR: #3373a3
+}
+
+.mov img {
+	margin-left: 40px;
+	margin-bottom: 30px;
+	display: block;
+	border-radius: 5px;
+	max-width: 100%;
+}
+

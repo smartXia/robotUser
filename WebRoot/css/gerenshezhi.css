@@ -1,0 +1,33 @@
+.section-base {
+	display: none;
+	margin-top: 20px;
+}
+
+.section-shop {
+	margin-top: 20px;
+	display: none;
+}
+
+.section-money {
+	margin-top: 20px;
+	display: none;
+}
+
+.person {
+	background-color: lightyellow;
+	border: 10px solid darkslategrey;
+	width: auto;
+	height: 500px;
+}
+
+.dropdown-menu.laa {
+	background-color: lightskyblue;
+	min-width: 100px;
+	max-width: 150px;
+}
+
+.btn-group img {
+	width: 30px;
+	height: 30px;
+	border-radius: 500px;
+-}

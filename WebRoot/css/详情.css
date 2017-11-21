@@ -1,0 +1,17 @@
+.property {
+	position: relative;
+	float: left;
+	width: 675px;
+	padding-top: 10px;
+	border: 10px solid aquamarine;
+}
+.buy{
+	margin-right: -10px;
+	margin-bottom: 20px;
+}
+.gooddetail img {
+	width: auto;
+	height: auto;
+}
+
+

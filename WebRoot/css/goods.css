@@ -1,0 +1,62 @@
+.daohang {
+	height: 40px;
+	width: 1240;
+	line-height: 40px;
+	background-color: #F8F8F8;
+	
+}
+
+.selector {
+	border: 1px solid #efefef;
+	background: #FFF;
+	padding: 15px 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.sl-line-wrap {
+	position: relative;
+	line-height: 46px;
+	height: auto;
+}
+
+.sl-line-wrap .mod-key {
+	float: left;
+	width: 75px;
+	padding-left: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #333;
+}
+
+.sl-line-wrap .mod-value {
+	argin: 0 83px 0 95px;
+	overflow: hidden;
+	zoom: 1;
+	background: #fff;
+}
+
+.sl-line-wrap .mod-value-list {
+	overflow: hidden;
+	zoom: 1;
+	padding-top: 6px;
+}
+.sl-category .mod-value-list li, .sl-prop .mod-value-list li {
+    margin-right: 62px;
+}
+.sl-category .mod-value-list li a, .sl-prop .mod-value-list li a {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+li	{
+	float: left;
+	list-style: none;
+}
+.goodimg img{
+	border: 5px solid red;
+	height: 240px;
+	width: 180px;
+	
+} 
